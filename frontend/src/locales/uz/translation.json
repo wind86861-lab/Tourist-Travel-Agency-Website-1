@@ -1,0 +1,109 @@
+{
+    "nav": {
+        "home": "Bosh Sahifa",
+        "about": "Biz Haqimizda",
+        "services": "Xizmatlar",
+        "packages": "Paketlar",
+        "pages": "Sahifalar",
+        "contact": "Bog'lanish",
+        "booking": "Buyurtma berish",
+        "login": "Kirish / Ro'yxatdan o'tish",
+        "logout": "Chiqish"
+    },
+    "hero": {
+        "title": "Unutilmas xotiralar yarating",
+        "subtitle": "Yevropa, Arab davlatlari, Turkiya, Tropik mamlakatlarga sayohat",
+        "search_placeholder": "Eg: Yevropa",
+        "search_btn": "Qidirish"
+    },
+    "home": {
+        "packages_title": "Paketlar",
+        "awesome_packages": "Ajoyib Paketlar",
+        "no_packages": "Hozircha ajoyib paketlar mavjud emas.",
+        "popular_destinations": "Mashhur Manzillar",
+        "no_destinations": "Hozircha mashhur manzillar mavjud emas.",
+        "details": "Batafsil",
+        "book_now": "Band qilish",
+        "popular": "Mashhur",
+        "great": "Ajoyib"
+    },
+    "packages": {
+        "title": "Paketlar",
+        "breadcrumb_home": "Bosh Sahifa",
+        "awesome_packages": "Ajoyib Paketlar",
+        "loading": "Turlar yuklanmoqda...",
+        "no_tours": "Turlar mavjud emas",
+        "check_back": "Tez orada yangi paketlar qo'shiladi!",
+        "spots": "Joy",
+        "details": "Batafsil",
+        "book": "Band qilish"
+    },
+    "booking": {
+        "title": "Band qilish",
+        "online_booking": "Onlayn Band qilish",
+        "book_tour": "Turingizni band qiling",
+        "name_label": "Ismingiz",
+        "email_label": "Emailingiz",
+        "datetime_label": "Sana & Vaqt",
+        "destination_label": "Manzil",
+        "request_label": "Maxsus so'rovlar",
+        "submit": "Band qilish"
+    },
+    "footer": {
+        "company": "Kompaniya",
+        "about": "Biz haqimizda",
+        "contact": "Bog'lanish",
+        "privacy": "Maxfiylik siyosati",
+        "terms": "Shartlar va qoidalar",
+        "help": "Yordam",
+        "contact_info": "Bog'lanish",
+        "gallery": "Galereya",
+        "newsletter": "Yangiliklar",
+        "newsletter_placeholder": "Emailingiz",
+        "subscribe": "Obuna bo'lish",
+        "all_rights": "Barcha huquqlar himoyalangan"
+    },
+    "process": {
+        "title": "Jarayon",
+        "subtitle": "3 ta oson qadam",
+        "step1_title": "Manzilni tanlang",
+        "step1_desc": "Keng ko'lamli turlarimizdan o'zingizga yoqqanini tanlang.",
+        "step2_title": "Online to'lov",
+        "step2_desc": "Xavfsiz va tezkor onlayn to'lov tizimi.",
+        "step3_title": "Bugun uching",
+        "step3_desc": "Yuklaringizni yig'ing va sayohatga tayyor bo'ling."
+    },
+    "about": {
+        "title": "Biz haqimizda",
+        "breadcrumb_home": "Bosh Sahifa",
+        "welcome": "Avocado Tour ga xush kelibsiz",
+        "subtitle": "Dunyo bilan biz bilan tanishing",
+        "description": "Biz butun dunyo bo'ylab eng yaxshi sayohat tajribalarini taqdim etamiz. Jamoamiz sizning sayohatingizni unutilmas qilishga harakat qiladi.",
+        "features": {
+            "first_class": "Birinchi toifadagi parvozlar",
+            "handpicked_hotels": "Saralangan mehmonxonalar",
+            "five_star_service": "5 yulduzli xizmat",
+            "latest_model_vehicles": "Eng so'nggi rusumdagi transportlar",
+            "guaranteed_lowest_price": "Kafolatlangan eng past narx"
+        },
+        "read_more": "Batafsil"
+    },
+    "services": {
+        "title": "Xizmatlarimiz",
+        "subtitle": "Biz nima taklif qilamiz",
+        "world_wide": "Butun dunyo bo'ylab turlar",
+        "hotel_reservation": "Mehmonxona band qilish",
+        "travel_guides": "Sayohat gidlar",
+        "event_management": "Tadbirlarni boshqarish"
+    },
+    "contact": {
+        "title": "Bog'lanish",
+        "subtitle": "Biz bilan bog'laning",
+        "send_us_a_message": "Xabar qoldiring",
+        "name_label": "Ismingiz",
+        "email_label": "Emailingiz",
+        "subject_label": "Mavzu",
+        "message_label": "Xabar",
+        "submit": "Xabarni yuborish"
+    }
+}

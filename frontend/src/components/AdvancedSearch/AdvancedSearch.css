@@ -1,0 +1,337 @@
+:root {
+  --primary: #9ACD32;
+  --primary-hover: #8BB82D;
+  --background: #FFFFFF;
+  --border: #E5E7EB;
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --error: #EF4444;
+  --success: #10B981;
+  
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --label-size: 14px;
+  --input-size: 16px;
+  --heading-size: 20px;
+  
+  --field-gap: 12px;
+  --section-gap: 24px;
+  --border-radius: 8px;
+  --card-radius: 16px;
+}
+
+.advanced-search-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background: transparent;
+  padding-bottom: 2rem;
+}
+
+/* Tabs */
+.search-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  padding: 0 16px;
+  overflow-x: auto;
+}
+
+.search-tab {
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border: none;
+  border-radius: 12px 12px 0 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-tab.active {
+  background: var(--background);
+  color: var(--primary);
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding-bottom: 14px; /* Slight overlap */
+  margin-bottom: -2px;
+  z-index: 2;
+}
+
+.search-tab:hover:not(.active) {
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--primary);
+}
+
+/* Main Card */
+.search-panel {
+  background: var(--background);
+  border-radius: var(--card-radius);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Primary Search Grid */
+.primary-search-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1fr 150px;
+  gap: var(--field-gap);
+  align-items: end;
+}
+
+/* Form Fields */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+
+.field-label {
+  font-size: var(--label-size);
+  color: var(--text-secondary);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.field-input-wrapper {
+  position: relative;
+  background: #F9FAFB;
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.field-input-wrapper:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(154, 205, 50, 0.1);
+  background: white;
+}
+
+.field-icon {
+  padding-left: 12px;
+  font-size: 1.2em;
+  opacity: 0.7;
+}
+
+.feature-input {
+  width: 100%;
+  padding: var(--input-padding);
+  border: none;
+  background: transparent;
+  font-size: var(--input-size);
+  color: var(--text-primary);
+  outline: none;
+}
+
+/* React Select Overrides */
+.basic-single .select__control {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  min-height: 48px;
+}
+
+.basic-single .select__value-container {
+  padding: 0 8px;
+}
+
+.basic-single .select__placeholder,
+.basic-single .select__single-value {
+  color: var(--text-primary);
+  font-size: var(--input-size);
+}
+
+/* React DatePicker Overrides */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker-popper {
+  z-index: 1000;
+}
+
+/* Search Button */
+.search-btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 50px; /* Match input height roughly */
+}
+
+.search-btn:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(154, 205, 50, 0.3);
+}
+
+.search-btn:disabled {
+  background: #D1D5DB;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Advanced Toggle */
+.advanced-toggle-wrapper {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.advanced-toggle {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.advanced-toggle:hover {
+  text-decoration: underline;
+}
+
+/* Advanced Filters Grid */
+.advanced-filters-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+  padding: 24px;
+  background: #F9FAFB;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filter-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+/* Checkbox Groups */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--primary);
+}
+
+/* Chips */
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-chip {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filter-chip.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.badge {
+  background: #FEF3C7;
+  color: #D97706;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+  .primary-search-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .primary-search-grid .search-btn {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .primary-search-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .primary-search-grid .search-btn {
+    grid-column: 1;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+  }
+
+  .advanced-filters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search-tabs {
+    padding: 0;
+  }
+  
+  .search-tab {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,115 @@
+.hot-deal-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    overflow: hidden;
+}
+
+.hot-deal-img-wrapper {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.hot-deal-img-wrapper:hover {
+    transform: scale(1.02);
+}
+
+.promo-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ff4d4d;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(255, 77, 77, 0.4);
+    animation: pulse 2s infinite;
+}
+
+.promo-badge span {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.promo-badge small {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.countdown-container {
+    display: flex;
+    gap: 15px;
+}
+
+.countdown-item {
+    background: white;
+    padding: 15px;
+    min-width: 80px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+}
+
+.countdown-item .number {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #86b817;
+    /* Theme Primary Color */
+    line-height: 1.2;
+}
+
+.countdown-item .label {
+    font-size: 0.75rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.price-tag {
+    display: flex;
+    align-items: center;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 1.4rem;
+    margin-right: 15px;
+}
+
+.new-price {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .countdown-container {
+        justify-content: center;
+    }
+
+    .new-price {
+        font-size: 2rem;
+    }
+}

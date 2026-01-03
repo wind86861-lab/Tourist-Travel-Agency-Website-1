@@ -1,0 +1,109 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "packages": "Packages",
+        "pages": "Pages",
+        "contact": "Contact",
+        "booking": "Book Now",
+        "login": "Login / Register",
+        "logout": "Logout"
+    },
+    "hero": {
+        "title": "Create Unforgettable Memories",
+        "subtitle": "Travel to Europe, Arab countries, Turkey, Tropical countries",
+        "search_placeholder": "Eg: Europe",
+        "search_btn": "Search"
+    },
+    "home": {
+        "packages_title": "Packages",
+        "awesome_packages": "Awesome Packages",
+        "no_packages": "No awesome packages available yet.",
+        "popular_destinations": "Popular Destinations",
+        "no_destinations": "No popular destinations available yet.",
+        "details": "Details",
+        "book_now": "Book Now",
+        "popular": "Popular",
+        "great": "Great"
+    },
+    "packages": {
+        "title": "Packages",
+        "breadcrumb_home": "Home",
+        "awesome_packages": "Awesome Packages",
+        "loading": "Loading tours...",
+        "no_tours": "No Tours Available",
+        "check_back": "Check back soon for exciting new packages!",
+        "spots": "Spots",
+        "details": "Details",
+        "book": "Book Now"
+    },
+    "booking": {
+        "title": "Booking",
+        "online_booking": "Online Booking",
+        "book_tour": "Book A Tour",
+        "name_label": "Your Name",
+        "email_label": "Your Email",
+        "datetime_label": "Date & Time",
+        "destination_label": "Destination",
+        "request_label": "Special Request",
+        "submit": "Book Now"
+    },
+    "footer": {
+        "company": "Company",
+        "about": "About Us",
+        "contact": "Contact Us",
+        "privacy": "Privacy Policy",
+        "terms": "Terms & Conditions",
+        "help": "Help",
+        "contact_info": "Contact Info",
+        "gallery": "Gallery",
+        "newsletter": "Newsletter",
+        "newsletter_placeholder": "Your Email",
+        "subscribe": "Subscribe",
+        "all_rights": "All Right Reserved"
+    },
+    "process": {
+        "title": "Process",
+        "subtitle": "3 Easy Steps",
+        "step1_title": "Choose A Destination",
+        "step1_desc": "Choose your dream destination from our wide variety of tours.",
+        "step2_title": "Pay Online",
+        "step2_desc": "Secure and fast online payment options for your convenience.",
+        "step3_title": "Fly Today",
+        "step3_desc": "Pack your bags and get ready for an amazing journey."
+    },
+    "about": {
+        "title": "About Us",
+        "breadcrumb_home": "Home",
+        "welcome": "Welcome to Avocado Tour",
+        "subtitle": "Discover the World with Us",
+        "description": "We provide the best travel experiences across the globe. Our team is dedicated to making your journey unforgettable.",
+        "features": {
+            "first_class": "First Class Flights",
+            "handpicked_hotels": "Handpicked Hotels",
+            "five_star_service": "5 Star Service",
+            "latest_model_vehicles": "Latest Model Vehicles",
+            "guaranteed_lowest_price": "Guaranteed Lowest Price"
+        },
+        "read_more": "Read More"
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "What We Offer",
+        "world_wide": "World Wide Tours",
+        "hotel_reservation": "Hotel Reservation",
+        "travel_guides": "Travel Guides",
+        "event_management": "Event Management"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Get In Touch",
+        "send_us_a_message": "Send Us A Message",
+        "name_label": "Your Name",
+        "email_label": "Your Email",
+        "subject_label": "Subject",
+        "message_label": "Message",
+        "submit": "Send Message"
+    }
+}
